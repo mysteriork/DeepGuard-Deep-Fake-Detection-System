@@ -65,9 +65,11 @@ cd DeepGuard_detection_system
 
 2️⃣ Setup Python ML Service
 
+( On Windows )
+---
 cd python-ml
 python -m venv venv
-venv\Scripts\activate        # On Windows
+venv\Scripts\activate        
 pip install -r requirements.txt
 python main.py
 
@@ -99,8 +101,9 @@ Access the app at:
 <img width="1980" height="1180" alt="graph_image_real" src="https://github.com/user-attachments/assets/72a707d3-b079-42c3-84c1-324448e9e773" />
 
 
-### PROJECT  S N A P S H O T S !!!! : 
-📸 Snapshots
+### PROJECT  -- S N A P S H O T S !!!! : 
+
+## 📸 Snapshots
 
 1. MAIN PAGE :
 
@@ -110,21 +113,39 @@ Access the app at:
 
 <img width="1920" height="1080" alt="img1" src="https://github.com/user-attachments/assets/2e6b78c4-ac37-4001-a894-369dcaf04b8d" />
 
-[BACKEND SERVER]  <img width="1195" height="1080" alt="image" src="https://github.com/user-attachments/assets/f7f6056c-49a8-42a7-bee0-173d5afd5ea5" />
+---
+
+# [BACKEND SERVER] 
+<img width="1195" height="1080" alt="image" src="https://github.com/user-attachments/assets/f7f6056c-49a8-42a7-bee0-173d5afd5ea5" />
 
 3. IMAGE ANALYSIS (FAKE) 
-<img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/74cacae7-9cd6-41b9-a9b1-8b2be0a94510" /><img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/2a51e46e-adda-4456-8b2f-e21491367289" />
+<img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/74cacae7-9cd6-41b9-a9b1-8b2be0a94510" />
+---
+# OUTPUT >
+<img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/2a51e46e-adda-4456-8b2f-e21491367289" />
 
 4. IMAGE ANALYSIS (REAL)
-<img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/703df4e5-ce6a-45c5-97eb-fe945ec41361" /><img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/f15df122-3891-4afe-8f6f-1980ac1ec9aa" />
+<img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/703df4e5-ce6a-45c5-97eb-fe945ec41361" />
+---
+# OUTPUT >
+<img width="955" height="571" alt="Screenshot 2025-11-08 230456" src="https://github.com/user-attachments/assets/d96a567f-d80f-46a8-8ada-cd3a6f788162" />
+
 
 5. VIDEO ANALYSIS (FAKE)
-<img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/a90230a2-0e1c-4402-bb79-baf493298240" /><img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/78508608-99b9-481e-b7c9-355797c66abc" />
+<img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/a90230a2-0e1c-4402-bb79-baf493298240" />
+---
+# OUTPUT >
+<img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/78508608-99b9-481e-b7c9-355797c66abc" />
 
 6. VIDEO ANALYSIS (REAL)
-<img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/70687910-d4e9-410f-8566-b21994b2e65a" /><img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/4a8f2ad0-9e80-4b59-803e-eeccaa473851" />
+<img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/70687910-d4e9-410f-8566-b21994b2e65a" />
+---
+# OUTPUT >
+<img width="1004" height="594" alt="Screenshot 2025-11-08 230248" src="https://github.com/user-attachments/assets/3bdf45e9-eba7-4740-92a1-932927401ca7" />
 
-7. ANALYSIS RESULT (backend) 
+
+
+### ------------------ ANALYSIS RESULT (backend) ------------------------
 <img width="681" height="814" alt="Screenshot 2025-11-08 230557" src="https://github.com/user-attachments/assets/d41c809f-a951-4353-8b85-3e29c1a0eeaf" />
 
 
