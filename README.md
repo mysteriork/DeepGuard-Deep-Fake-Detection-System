@@ -90,11 +90,11 @@ Access the app at:
 
 ## 🛡️ Key Features
 
-✅ Real-time deepfake detection for images and videos
-✅ Modular 3-tier architecture (Frontend + Node API + Python ML)
-✅ Fast and accurate inference using CNN and temporal models
-✅ Modern and responsive UI with progress tracking and animations
-✅ RESTful API integration for scalability and deployment flexibility
+✅ Real-time deepfake detection for images and videos.
+✅ Modular 3-tier architecture (Frontend + Node API + Python ML).
+✅ Fast and accurate inference using CNN and temporal models.
+✅ Modern and responsive UI with progress tracking and animations.
+✅ RESTful API integration for scalability and deployment flexibility.
 
 # ACCURACY ANALYSIS :
 
@@ -118,28 +118,37 @@ Access the app at:
 # [BACKEND SERVER] 
 <img width="1195" height="1080" alt="image" src="https://github.com/user-attachments/assets/f7f6056c-49a8-42a7-bee0-173d5afd5ea5" />
 
+---
+
 3. IMAGE ANALYSIS (FAKE) 
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/74cacae7-9cd6-41b9-a9b1-8b2be0a94510" />
 ---
+
 # OUTPUT >
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/2a51e46e-adda-4456-8b2f-e21491367289" />
 
 4. IMAGE ANALYSIS (REAL)
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/703df4e5-ce6a-45c5-97eb-fe945ec41361" />
 ---
+
 # OUTPUT >
 <img width="955" height="571" alt="Screenshot 2025-11-08 230456" src="https://github.com/user-attachments/assets/d96a567f-d80f-46a8-8ada-cd3a6f788162" />
 
+---
 
 5. VIDEO ANALYSIS (FAKE)
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/a90230a2-0e1c-4402-bb79-baf493298240" />
 ---
+
 # OUTPUT >
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/78508608-99b9-481e-b7c9-355797c66abc" />
+
+---
 
 6. VIDEO ANALYSIS (REAL)
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/70687910-d4e9-410f-8566-b21994b2e65a" />
 ---
+
 # OUTPUT >
 <img width="1004" height="594" alt="Screenshot 2025-11-08 230248" src="https://github.com/user-attachments/assets/3bdf45e9-eba7-4740-92a1-932927401ca7" />
 
