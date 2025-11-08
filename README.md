@@ -120,15 +120,19 @@ Access the app at:
 
 ---
 
-3. IMAGE ANALYSIS (FAKE) 
+## 3. IMAGE ANALYSIS (FAKE)
+
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/74cacae7-9cd6-41b9-a9b1-8b2be0a94510" />
+
 ---
 
 # OUTPUT >
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/2a51e46e-adda-4456-8b2f-e21491367289" />
 
-4. IMAGE ANALYSIS (REAL)
+## 4. IMAGE ANALYSIS (REAL)
+
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/703df4e5-ce6a-45c5-97eb-fe945ec41361" />
+
 ---
 
 # OUTPUT >
@@ -136,8 +140,9 @@ Access the app at:
 
 ---
 
-5. VIDEO ANALYSIS (FAKE)
+## 5. VIDEO ANALYSIS (FAKE)
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/a90230a2-0e1c-4402-bb79-baf493298240" />
+
 ---
 
 # OUTPUT >
@@ -145,8 +150,9 @@ Access the app at:
 
 ---
 
-6. VIDEO ANALYSIS (REAL)
+## 6. VIDEO ANALYSIS (REAL)
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/70687910-d4e9-410f-8566-b21994b2e65a" />
+
 ---
 
 # OUTPUT >
@@ -173,6 +179,6 @@ Access the app at:
 This project is licensed under the MIT License — feel free to use and modify for research and educational purposes.
 👨‍💻 Author
 
-### Rachit Kumar
+### ==>> Rachit Kumar <<==
 B.Tech – Computer Science & Engineering (CYBER FORENSICS) 
 💻 Python | C++ | MERN Stack | AI/ML 
