@@ -4,33 +4,14 @@
 **DeepGuard** is a production-grade **Deepfake Detection System** that leverages **AI + Deep Learning** to identify manipulated or synthetic content in both images and videos.  
 It integrates a **Python-based ML engine** with a better improved ensemble core logic , a **Node.js backend**, and a **modern React frontend** — providing users with a seamless, accurate, and interactive deepfake verification experience.  
 
+<img width="270" height="150" alt="Screenshot 2025-10-05 132956" src="https://github.com/user-attachments/assets/5a2521d9-687b-4695-aa2b-168335a10cb3" />
+
 ---
 
 ## 📂 Project Structure  
 
-DeepGuard_detection_system/
-│
-├── frontend/ # React.js Frontend (User Interface)
-│ ├── App.js
-│ ├── main.js
-│ ├── home.js
-│ ├── styles/ # Corresponding CSS files
-│ └── ...
-│
-├── backend-node/ # Node.js Backend (API Gateway + File Handling)
-│ ├── server.js
-│ ├── uploads/ # Uploaded images/videos
-│ └── ...
-│
-├── python-ml/ # Python Machine Learning Engine
-│ ├── main.py # FastAPI or Flask microservice endpoint
-│ ├── model_helper.py # Model loading, inference logic
-│ ├── image_model_core.py # CNN-based deepfake detection module
-│ ├── temporal_model.py # Temporal analysis for video frames
-│ ├── venv/ # Python virtual environment (ignored)
-│ └── requirements.txt # ML dependencies
-│
-└── README.md
+<img width="788" height="674" alt="Screenshot 2025-11-08 221557" src="https://github.com/user-attachments/assets/162c5c3b-e602-41df-ab43-39dbd49ee617" />
+
 
 
 ---
@@ -123,7 +104,7 @@ Access the app at:
 
 1. MAIN PAGE :
 
-<img width="763" height="983" alt="image" src="https://github.com/user-attachments/assets/936410f7-6989-4817-842f-2c0e47ddc9d5" />
+<img width="1920" height="2477" alt="image" src="https://github.com/user-attachments/assets/b4214c19-989c-4aca-ba23-0f498418a7f2" />
 
 2. DETECTOR PAGE :
 
