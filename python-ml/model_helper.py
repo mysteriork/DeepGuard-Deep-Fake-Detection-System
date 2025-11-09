@@ -4,6 +4,8 @@ from PIL import Image
 from facenet_pytorch import MTCNN
 from temporal_model import TemporalConsistencyModel
 import warnings, logging
+import os
+from dotenv import load_dotenv
 
 warnings.filterwarnings("ignore")
 
@@ -15,6 +17,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+load_dotenv()
+
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # ---------- Face Detector ----------
@@ -25,10 +29,13 @@ temporal_model = TemporalConsistencyModel(window=7, alpha=0.75)
 
 # ---------- Model Definitions ----------
 MODEL_PATHS = [
-    "prithivMLmods/Deepfake-Detection-FFPP-Xception",      # CNN (FF++)
-    
-    "Wvolf/ViT_Deepfake_Detection",                        # ViT (DFDC)
-    "microsoft/beit-large-patch16-224-pt22k-ft22k"         # BEiT (robust texture)
+
+
+    os.getenv("VIDEO_MODEL_1"),
+    os.getenv("VIDEO_MODEL_2"),
+    os.getenv("VIDEO_MODEL_3")
+
+
 ]
 
 models, processors = [], []

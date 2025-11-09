@@ -282,11 +282,16 @@ import numpy as np
 from PIL import Image
 import cv2
 import torch
+from dotenv import load_dotenv
 from transformers import AutoImageProcessor, AutoModelForImageClassification
+
 
 warnings.filterwarnings("ignore")
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
+
+load_dotenv()
+
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 logger.info(f"Device for image_model_core: {device}")
@@ -308,9 +313,10 @@ except Exception:
 
 # models (same ensemble)
 MODEL_PATHS = [
-    "prithivMLmods/deepfake-detector-model-v1",
-    "Wvolf/ViT_Deepfake_Detection",
-    "microsoft/beit-large-patch16-224-pt22k-ft22k"
+
+    os.getenv("IMAGE_MODEL_1"),
+    os.getenv("IMAGE_MODEL_2"),
+    os.getenv("IMAGE_MODEL_3")
 ]
 
 models = []
@@ -326,7 +332,7 @@ def load_image_models():
             model.eval()
             models.append(model)
             processors.append(proc)
-            logger.info(f"✅ Loaded image model: {mid}")
+            logger.info(f"✅ Loaded image model: {mid.split('/')[-1]}")
         except Exception as e:
             logger.warning(f"⚠️ Failed to load model {mid}: {e}")
 
