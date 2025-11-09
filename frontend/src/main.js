@@ -61,7 +61,7 @@ function Main() {
       // const xhr = new XMLHttpRequest();
       // xhr.open("POST", `http://localhost:5000${endpoint}`, true);
 
-      const Url= process.env.LINK
+      const Url= process.env.REACT_APP_API_BASE
       const xhr = new XMLHttpRequest();
       xhr.open("POST", `${Url}${endpoint}`, true);
 

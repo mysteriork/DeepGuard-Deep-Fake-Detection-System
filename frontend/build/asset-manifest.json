@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.74851413.css",
-    "main.js": "/static/js/main.60d2e6c9.js",
+    "main.js": "/static/js/main.c71c72f4.js",
     "static/js/453.d7446e4a.chunk.js": "/static/js/453.d7446e4a.chunk.js",
     "static/media/jon_snow_one.jpg": "/static/media/jon_snow_one.e8ba307269fa425fc85a.jpg",
     "static/media/jhon_Cena.jpg": "/static/media/jhon_Cena.d8473654f83f288677d3.jpg",
     "index.html": "/index.html",
     "main.74851413.css.map": "/static/css/main.74851413.css.map",
-    "main.60d2e6c9.js.map": "/static/js/main.60d2e6c9.js.map",
+    "main.c71c72f4.js.map": "/static/js/main.c71c72f4.js.map",
     "453.d7446e4a.chunk.js.map": "/static/js/453.d7446e4a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.74851413.css",
-    "static/js/main.60d2e6c9.js"
+    "static/js/main.c71c72f4.js"
   ]
 }
