@@ -17,7 +17,7 @@ const UPLOAD_DIR = path.join(__dirname, "uploads");
 if (!fs.existsSync(UPLOAD_DIR)) fs.mkdirSync(UPLOAD_DIR);
 const upload = multer({ dest: UPLOAD_DIR });
 
-const PY_SERVER = process.env.SERVER;
+const PY_SERVER = process.env.SERVER || "http://localhost:8000";
 
 async function sendToPython(endpoint, filePath) {
   const form = new FormData();
