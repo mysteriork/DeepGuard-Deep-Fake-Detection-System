@@ -17,7 +17,9 @@ home.css
 App.css
 main.css
 
-
+.env
+.env/
+/.env
 # PYTHON-BACKEND
 
 
@@ -25,6 +27,7 @@ main.css
 /python-ml/venv
 /python-ml/.gitignore
 /python-ml/_pycache_
+/python-ml/.env
 
 /python-ml/requirements.txt
 
@@ -44,3 +47,4 @@ main.css
 /backend/node_modules
 /backend/uploads
 /backend/.gitignore
+/backend/.env
