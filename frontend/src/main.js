@@ -58,8 +58,12 @@ function Main() {
     const endpoint = mode === "image" ? "/api/image" : "/api/video";
 
     try {
+      // const xhr = new XMLHttpRequest();
+      // xhr.open("POST", `http://localhost:5000${endpoint}`, true);
+
+      const Url= process.env.LINK
       const xhr = new XMLHttpRequest();
-      xhr.open("POST", `http://localhost:5000${endpoint}`, true);
+      xhr.open("POST", `${Url}${endpoint}`, true);
 
       xhr.upload.onprogress = (e) => {
         if (e.lengthComputable) {
