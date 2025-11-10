@@ -11,7 +11,16 @@ const fs = require("fs");
 const path = require("path");
 
 const app = express();
-app.use(cors());
+app.use(
+  cors({
+    origin: [
+      "https://deep-fake-detection-system-6k6rkxctu-mysteriorks-projects.vercel.app/",
+      "http://localhost:3000",
+    ],
+    methods: ["GET", "POST"],
+    allowedHeaders: ["Content-Type"],
+  })
+);
 
 const UPLOAD_DIR = path.join(__dirname, "uploads");
 if (!fs.existsSync(UPLOAD_DIR)) fs.mkdirSync(UPLOAD_DIR);
