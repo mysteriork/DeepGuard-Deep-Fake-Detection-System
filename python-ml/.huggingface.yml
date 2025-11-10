@@ -1,0 +1,6 @@
+sdk: docker
+app_port: 7860
+title: DeepGuard - Deepfake Detection API
+emoji: 🧠
+colorFrom: blue
+colorTo: indigo

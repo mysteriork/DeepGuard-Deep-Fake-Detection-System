@@ -34,8 +34,6 @@ MODEL_PATHS = [
     os.getenv("VIDEO_MODEL_1"),
     os.getenv("VIDEO_MODEL_2"),
     os.getenv("VIDEO_MODEL_3")
-
-
 ]
 
 models, processors = [], []
@@ -46,7 +44,7 @@ for mid in MODEL_PATHS:
         model.eval()
         models.append(model)
         processors.append(proc)
-        logger.info(f"✅ Loaded model: {mid}")
+        logger.info(f"✅ Loaded model: {mid.split('/')[-1]}")
     except Exception as e:
         logger.warning(f"⚠️ Failed to load {mid}: {e}")
 
