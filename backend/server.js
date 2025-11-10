@@ -88,7 +88,9 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "https://deep-fake-detection-system-6k6rkxctu-mysteriorks-projects.vercel.app", // no slash!
+      "https://deep-fake-detection-system.vercel.app/",
+      "https://deep-fake-detection-system.vercel.app",
+       // no slash!
       "http://localhost:3000",
     ],
     methods: ["GET", "POST", "OPTIONS"],
