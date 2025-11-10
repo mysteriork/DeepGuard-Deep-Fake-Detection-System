@@ -109,11 +109,13 @@ Access the app at:
 
 ## 📸 Snapshots
 
-1. MAIN PAGE :
+# 1. MAIN PAGE :
 
 <img width="1920" height="2477" alt="image" src="https://github.com/user-attachments/assets/b4214c19-989c-4aca-ba23-0f498418a7f2" />
 
-2. DETECTOR PAGE :
+---
+
+# 2. DETECTOR PAGE :
 
 <img width="1920" height="1080" alt="img1" src="https://github.com/user-attachments/assets/2e6b78c4-ac37-4001-a894-369dcaf04b8d" />
 
@@ -179,6 +181,6 @@ Access the app at:
 This project is licensed under the MIT License — feel free to use and modify for research and educational purposes.
 👨‍💻 Author
 
-# ==>> Rachit Kumar <<==
+## ==>> Rachit Kumar <<==
 B.Tech – Computer Science & Engineering (CYBER FORENSICS) 
 💻 Python | C++ | MERN Stack | AI/ML 
