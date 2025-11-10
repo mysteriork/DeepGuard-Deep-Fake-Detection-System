@@ -1,6 +1,6 @@
 # DeepGuard : DEEP-FAKE DETECTION SYSTEM  
 
-### 👉  L I V E now :-  https://deep-fake-detection-system-6k6rkxctu-mysteriorks-projects.vercel.app/
+### 👉  L I V E now :-  https://deep-fake-detection-system.vercel.app/
 ---
 
 
