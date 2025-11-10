@@ -1,5 +1,7 @@
 # DeepGuard : DEEP-FAKE DETECTION SYSTEM  
 
+👉  L I V E   N O W :-  https://deep-fake-detection-system-6k6rkxctu-mysteriorks-projects.vercel.app/ 
+
 ### 🎯 Overview  
 **DeepGuard** is a production-grade **Deepfake Detection System** that leverages **AI + Deep Learning** to identify manipulated or synthetic content in both images and videos.  
 It integrates a **Python-based ML engine** with a better improved ensemble core logic , a **Node.js backend**, and a **modern React frontend** — providing users with a seamless, accurate, and interactive deepfake verification experience.  
