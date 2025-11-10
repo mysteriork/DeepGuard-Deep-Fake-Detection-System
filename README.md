@@ -1,6 +1,6 @@
 # DeepGuard : DEEP-FAKE DETECTION SYSTEM  
 
-# 👉  L I V E now :-  https://deep-fake-detection-system-6k6rkxctu-mysteriorks-projects.vercel.app/
+### 👉  L I V E now :-  https://deep-fake-detection-system-6k6rkxctu-mysteriorks-projects.vercel.app/
 ---
 
 
@@ -104,8 +104,8 @@ Access the app at:
 
 <img width="1980" height="1180" alt="graph_image_real" src="https://github.com/user-attachments/assets/72a707d3-b079-42c3-84c1-324448e9e773" />
 
+--- 
 
-### PROJECT  -- S N A P S H O T S !!!! : 
 
 ## 📸 Snapshots
 
@@ -124,42 +124,38 @@ Access the app at:
 
 ---
 
-## 3. IMAGE ANALYSIS (FAKE)
+# 3. IMAGE ANALYSIS (FAKE)
 
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/74cacae7-9cd6-41b9-a9b1-8b2be0a94510" />
 
----
 
-# OUTPUT >
+## OUTPUT :
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/2a51e46e-adda-4456-8b2f-e21491367289" />
 
-## 4. IMAGE ANALYSIS (REAL)
+# 4. IMAGE ANALYSIS (REAL)
 
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/703df4e5-ce6a-45c5-97eb-fe945ec41361" />
 
----
 
-# OUTPUT >
+## OUTPUT :
 <img width="955" height="571" alt="Screenshot 2025-11-08 230456" src="https://github.com/user-attachments/assets/d96a567f-d80f-46a8-8ada-cd3a6f788162" />
 
 ---
 
-## 5. VIDEO ANALYSIS (FAKE)
+# 5. VIDEO ANALYSIS (FAKE)
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/a90230a2-0e1c-4402-bb79-baf493298240" />
 
----
 
-# OUTPUT >
+## OUTPUT :
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/78508608-99b9-481e-b7c9-355797c66abc" />
 
 ---
 
-## 6. VIDEO ANALYSIS (REAL)
+# 6. VIDEO ANALYSIS (REAL)
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/70687910-d4e9-410f-8566-b21994b2e65a" />
 
----
 
-# OUTPUT >
+## OUTPUT :
 <img width="1004" height="594" alt="Screenshot 2025-11-08 230248" src="https://github.com/user-attachments/assets/3bdf45e9-eba7-4740-92a1-932927401ca7" />
 
 
@@ -183,6 +179,6 @@ Access the app at:
 This project is licensed under the MIT License — feel free to use and modify for research and educational purposes.
 👨‍💻 Author
 
-### ==>> Rachit Kumar <<==
+# ==>> Rachit Kumar <<==
 B.Tech – Computer Science & Engineering (CYBER FORENSICS) 
 💻 Python | C++ | MERN Stack | AI/ML 
