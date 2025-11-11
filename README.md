@@ -121,11 +121,6 @@ Access the app at:
 
 ---
 
-#  [BACKEND SERVER] 🧠
-<img width="1195" height="1080" alt="image" src="https://github.com/user-attachments/assets/f7f6056c-49a8-42a7-bee0-173d5afd5ea5" />
-
----
-
 # 3. IMAGE ANALYSIS (FAKE) 🖼️🔴
 
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/74cacae7-9cd6-41b9-a9b1-8b2be0a94510" />
