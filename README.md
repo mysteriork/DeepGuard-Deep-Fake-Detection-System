@@ -179,6 +179,8 @@ Access the app at:
 
    💡 Implementing user authentication and analysis history
 
+---
+
 🪪 License
 
 This project is licensed under the MIT License — feel free to use and modify for research and educational purposes.
@@ -189,4 +191,5 @@ This project is licensed under the MIT License — feel free to use and modify f
 
 ## ==>> Rachit Kumar <<==
 B.Tech – Computer Science & Engineering (CYBER FORENSICS) 
+### Send Mail to callmerachit145@gmail.com 📧
 💻 Python | C++ | MERN Stack | AI/ML 
