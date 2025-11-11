@@ -121,7 +121,7 @@ Access the app at:
 
 ---
 
-# 🧠 [BACKEND SERVER] 
+#  [BACKEND SERVER] 🧠
 <img width="1195" height="1080" alt="image" src="https://github.com/user-attachments/assets/f7f6056c-49a8-42a7-bee0-173d5afd5ea5" />
 
 ---
@@ -162,9 +162,10 @@ Access the app at:
 ## OUTPUT :
 <img width="1004" height="594" alt="Screenshot 2025-11-08 230248" src="https://github.com/user-attachments/assets/3bdf45e9-eba7-4740-92a1-932927401ca7" />
 
+---
 
 
-### ------------------ ANALYSIS RESULT (backend) 📊🤖------------------------
+## ------------------ ANALYSIS RESULT (backend) 📊🤖 ------------------------
 <img width="1370" height="908" alt="Screenshot 2025-11-11 005544" src="https://github.com/user-attachments/assets/71e97bc1-46b0-47d1-9759-d3f95daf271b" />
 
 
