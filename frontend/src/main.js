@@ -99,12 +99,12 @@ function Main() {
     const endpoint = mode === "image" ? "/api/image" : "/api/video";
 
     try {
-      const xhr = new XMLHttpRequest();
-      xhr.open("POST", `http://localhost:5000${endpoint}`, true);
-
-      // const Url= process.env.REACT_APP_API_BASE
       // const xhr = new XMLHttpRequest();
-      // xhr.open("POST", `${Url}${endpoint}`, true);
+      // xhr.open("POST", `http://localhost:5000${endpoint}`, true);
+
+      const Url= process.env.REACT_APP_API_BASE
+      const xhr = new XMLHttpRequest();
+      xhr.open("POST", `${Url}${endpoint}`, true);
 
       xhr.upload.onprogress = (e) => {
         if (e.lengthComputable) {
