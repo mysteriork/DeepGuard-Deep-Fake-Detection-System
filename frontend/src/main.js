@@ -1,17 +1,48 @@
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////// TOASTIFY USED /////////////////////////////////////////////////
+
 import React, { useState, useEffect } from "react";
 import "./main.css";
 import { useNavigate } from "react-router-dom";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Main() {
   const [mode, setMode] = useState("image");
   const [file, setFile] = useState(null);
   const [preview, setPreview] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [progress, setProgress] = useState(0); // added progress
+  const [progress, setProgress] = useState(0);
   const [result, setResult] = useState(null);
   const [key, setKey] = useState(0);
 
   const navigate = useNavigate();
+
+  useEffect(() => {
+    let shown = false;
+    if (!shown) {
+      shown = true;
+      setTimeout(() => {
+        toast.info(
+          `⚡ This ' PRODUCT ' is new and sometimes it goes DOWN on Services .
+          NO WORRIES!... Our Team is working on it. If your Upload Fails, Please " TRY AGAIN " !!! Thank you 👍`,
+          {
+            position: "top-center",
+            autoClose: 10000,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            style: {
+              background: "darkblue",
+              color: "white",
+              width:"400px"
+            },
+          }
+        );
+      }, 3000);
+    }
+  }, []);
 
   useEffect(() => {
     if (!file) {
@@ -46,7 +77,17 @@ function Main() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!file) return alert("Choose a file first");
+    if (!file) {
+      toast.warning("Choose a file first", {
+        position: "top-center",
+        autoClose: 4000,
+        style: {
+          background: "linear-gradient(90deg,#f7971e,#ffd200)",
+          color: "#1e2a38",
+        },
+      });
+      return;
+    }
 
     setLoading(true);
     setResult(null);
@@ -58,12 +99,12 @@ function Main() {
     const endpoint = mode === "image" ? "/api/image" : "/api/video";
 
     try {
-      // const xhr = new XMLHttpRequest();
-      // xhr.open("POST", `http://localhost:5000${endpoint}`, true);
-
-      const Url= process.env.REACT_APP_API_BASE
       const xhr = new XMLHttpRequest();
-      xhr.open("POST", `${Url}${endpoint}`, true);
+      xhr.open("POST", `http://localhost:5000${endpoint}`, true);
+
+      // const Url= process.env.REACT_APP_API_BASE
+      // const xhr = new XMLHttpRequest();
+      // xhr.open("POST", `${Url}${endpoint}`, true);
 
       xhr.upload.onprogress = (e) => {
         if (e.lengthComputable) {
@@ -83,19 +124,40 @@ function Main() {
             setProgress(0);
           }, 500);
         } else {
-          alert("Error during detection");
+          toast.error("Error during detection", {
+            position: "top-center",
+            autoClose: 6000,
+            style: {
+              background: "linear-gradient(90deg,#ff5858,#f09819)",
+              color: "white",
+            },
+          });
           setLoading(false);
         }
       };
 
       xhr.onerror = () => {
-        alert("Upload failed. Try again.");
+        toast.error(`SORRY Upload Failed... Please Try Again !`, {
+          position: "top-center",
+          autoClose: 6000,
+          style: {
+            background: "linear-gradient(90deg,#ff5858,#f09819)",
+            color: "white",
+          },
+        });
         setLoading(false);
       };
 
       xhr.send(form);
     } catch (err) {
-      alert("Error: " + err.message);
+      toast.error("Error: " + err.message, {
+        position: "top-center",
+        autoClose: 6000,
+        style: {
+          background: "linear-gradient(90deg,#ff5858,#f09819)",
+          color: "white",
+        },
+      });
       setLoading(false);
     }
   };
@@ -106,12 +168,7 @@ function Main() {
     <div className="deepfake-container">
       <nav className="navbar1 flex">
         <a href="/" className="imagesection">
-          <label
-            className="imgseclabel"
-           
-          >
-            DeepGuard
-          </label>
+          <label className="imgseclabel">DeepGuard</label>
         </a>
         <section className="nav-section">
           <button className="btn1" onClick={() => navigate("/detector")}>
@@ -159,7 +216,8 @@ function Main() {
             {loading ? "Checking..." : "Upload & Check"}
           </button>
         </form>
-
+        {/* Toast container for displaying notifications */}
+        <ToastContainer />
         {preview && mode === "image" && (
           <div className="pre-section" style={{ marginTop: 20 }}>
             <h3 style={{ fontFamily: "cursive" }}>Image Preview:</h3>
@@ -184,45 +242,6 @@ function Main() {
             </video>
           </div>
         )}
-
-        {/* {result && result.source === "video" && (
-          <div style={{ marginTop: 20 }} className="result-section">
-            <h3>Summary:</h3>
-            <p>Model Score: {(result.model_score * 100).toFixed(2)}%</p>
-            <p>Heuristic Score: {(result.heuristic_score * 100).toFixed(2)}%</p>
-            <p>Final Score: {(result.final_score * 100).toFixed(2)}%</p>
-            <p>
-              <strong>
-                Verdict:{" "}
-                <span
-                  style={{
-                    color: result.is_deepfake ? "red" : "green",
-                  }}
-                >
-                  {result.is_deepfake ? "Fake" : "Real"}
-                </span>
-              </strong>
-            </p>
-          </div>
-        )}
-
-        {result && result.source === "image" && (
-          <div className="result-section" style={{ marginTop: 20 }}>
-            <h3>Result:</h3>
-            <div className="result-ss">
-              <p>
-                <strong
-                  style={{
-                    color: result.is_deepfake ? "orange" : "green",
-                  }}
-                >
-                  {result.is_deepfake ? "Fake" : "Real"} (
-                  {(result.final_score * 100).toFixed(2)}%)
-                </strong>
-              </p>
-            </div>
-          </div>
-        )} */}
 
         {result && result.source === "video" && (
           <div className="result-section modern-result">
