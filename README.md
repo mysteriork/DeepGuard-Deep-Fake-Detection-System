@@ -1,6 +1,6 @@
 # DeepGuard : DEEP-FAKE DETECTION SYSTEM  
 
-### 👉  L I V E now :-  https://deep-fake-detection-system-6k6rkxctu-mysteriorks-projects.vercel.app/
+### 👉  L I V E now :-  https://deep-fake-detection-system.vercel.app/
 ---
 
 
@@ -43,7 +43,7 @@ It integrates a **Python-based ML engine** with a better improved ensemble core 
 
 ---
 
-# MODULE EXPLANATION :
+# MODULE EXPLANATION : 🧾
 <img width="658" height="717" alt="image" src="https://github.com/user-attachments/assets/b0b405df-aa6d-42e2-a5e0-ff6e75424825" />
 
 
@@ -54,7 +54,7 @@ It integrates a **Python-based ML engine** with a better improved ensemble core 
 3. **ML Engine (Python)** — Performs deepfake detection using pretrained CNN + temporal models.  
 4. **Results Returned** — Node backend sends structured response back to frontend for visualization.  
 
-# WORKFLOW DIAGRAM :
+# WORKFLOW DIAGRAM : ⚡
 1- <img width="2400" height="1600" alt="blockD" src="https://github.com/user-attachments/assets/1abcd26d-2549-4a49-b6ef-f77277cbd83d" />
 2- [ DFD ]
 <img width="1536" height="1024" alt="DFD backend" src="https://github.com/user-attachments/assets/abc48af4-d1d7-4cab-97fe-eabe2f140482" />
@@ -100,7 +100,7 @@ Access the app at:
 ✅ Modern and responsive UI with progress tracking and animations.
 ✅ RESTful API integration for scalability and deployment flexibility.
 
-# ACCURACY ANALYSIS :
+# ACCURACY ANALYSIS : 🤖
 
 <img width="1980" height="1180" alt="graph_image_real" src="https://github.com/user-attachments/assets/72a707d3-b079-42c3-84c1-324448e9e773" />
 
@@ -109,24 +109,19 @@ Access the app at:
 
 ## 📸 Snapshots
 
-# 1. MAIN PAGE :
+# 1. MAIN PAGE : 🏠
 
 <img width="1920" height="2477" alt="image" src="https://github.com/user-attachments/assets/b4214c19-989c-4aca-ba23-0f498418a7f2" />
 
 ---
 
-# 2. DETECTOR PAGE :
+# 2. DETECTOR PAGE : 🔍
 
 <img width="1920" height="1080" alt="img1" src="https://github.com/user-attachments/assets/2e6b78c4-ac37-4001-a894-369dcaf04b8d" />
 
 ---
 
-# [BACKEND SERVER] 
-<img width="1195" height="1080" alt="image" src="https://github.com/user-attachments/assets/f7f6056c-49a8-42a7-bee0-173d5afd5ea5" />
-
----
-
-# 3. IMAGE ANALYSIS (FAKE)
+# 3. IMAGE ANALYSIS (FAKE) 🖼️🔴
 
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/74cacae7-9cd6-41b9-a9b1-8b2be0a94510" />
 
@@ -134,7 +129,9 @@ Access the app at:
 ## OUTPUT :
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/2a51e46e-adda-4456-8b2f-e21491367289" />
 
-# 4. IMAGE ANALYSIS (REAL)
+---
+
+# 4. IMAGE ANALYSIS (REAL) 🖼️🟢
 
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/703df4e5-ce6a-45c5-97eb-fe945ec41361" />
 
@@ -144,7 +141,7 @@ Access the app at:
 
 ---
 
-# 5. VIDEO ANALYSIS (FAKE)
+# 5. VIDEO ANALYSIS (FAKE) 🎞️🔴
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/a90230a2-0e1c-4402-bb79-baf493298240" />
 
 
@@ -153,34 +150,41 @@ Access the app at:
 
 ---
 
-# 6. VIDEO ANALYSIS (REAL)
+# 6. VIDEO ANALYSIS (REAL) 🎞️🟢
 <img width="1707" height="1071" alt="image" src="https://github.com/user-attachments/assets/70687910-d4e9-410f-8566-b21994b2e65a" />
 
 
 ## OUTPUT :
 <img width="1004" height="594" alt="Screenshot 2025-11-08 230248" src="https://github.com/user-attachments/assets/3bdf45e9-eba7-4740-92a1-932927401ca7" />
 
+---
 
 
-### ------------------ ANALYSIS RESULT (backend) ------------------------
-<img width="681" height="814" alt="Screenshot 2025-11-08 230557" src="https://github.com/user-attachments/assets/d41c809f-a951-4353-8b85-3e29c1a0eeaf" />
+## ------------------ ANALYSIS RESULT (backend) 📊🤖 ------------------------
+<img width="1370" height="908" alt="Screenshot 2025-11-11 005544" src="https://github.com/user-attachments/assets/71e97bc1-46b0-47d1-9759-d3f95daf271b" />
 
 
 🧠 Future Improvements
 
-    Will Integrate transformer-based video forgery models
+   💡 Will Integrate transformer-based video forgery models
 
-    To add deepfake probability heatmaps
+   💡 To add deepfake probability heatmaps
 
-    To support streaming input and live camera detection
+   💡 To support streaming input and live camera detection
 
-    Implementing user authentication and analysis history
+   💡 Implementing user authentication and analysis history
+
+---
 
 🪪 License
 
 This project is licensed under the MIT License — feel free to use and modify for research and educational purposes.
+
+---
+
 👨‍💻 Author
 
 ## ==>> Rachit Kumar <<==
 B.Tech – Computer Science & Engineering (CYBER FORENSICS) 
+### Send Mail to callmerachit145@gmail.com 📧
 💻 Python | C++ | MERN Stack | AI/ML 
