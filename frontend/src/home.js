@@ -11,17 +11,7 @@ function Home() {
       <div className="home-container">
         <nav className="navbar1">
           <a href="/" className="imgsection">
-            <label
-              className="imgseclabel"
-              style={{
-                color: "white",
-                fontSize: "x-large",
-                fontWeight: "600",
-                fontFamily: "calibri",
-              }}
-            >
-              DeepGuard
-            </label>
+            <label className="imgseclabel">DeepGuard</label>
           </a>
           <section className="nav-section">
             <button className="btn1" onClick={() => Navigate("/detector")}>
@@ -31,7 +21,7 @@ function Home() {
             <button className="btn">Contact</button>
           </section>
         </nav>
-        <section className="hero homeContainer flex">
+        <section className="hero homeContainer">
           <div className="text1 ">
             <h1 id="textmain">Welcome to DeepGuard</h1>
             <h2 className="subHead" style={{ color: "rgb(200, 32, 119)" }}>
@@ -44,7 +34,7 @@ function Home() {
               era of proliferating synthetic content.
             </p>
           </div>
-          <div className="heroimg flex">
+          <div className="heroimg ">
             <div className="shadow">
               <div className="box1">Real</div>
               <div className="box2">Fake</div>
@@ -58,10 +48,10 @@ function Home() {
             Use Detector
           </button>
         </section>
-        <main className="main ">
+        <main className="main homeContainer">
           <div className="div1 flex">
             <p className="subhead2">
-              What is a <strong>Deepfake ?</strong>
+              What is <strong>Deepfake ?</strong>
             </p>
             <p className="story1">
               <strong>"Deepfake"</strong> is a portmanteau of "deep learning"

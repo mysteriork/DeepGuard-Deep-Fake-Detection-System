@@ -1,5 +1,4 @@
 
-
 /////////////////////////////////////////////////////////////////////////////////////////////// TOASTIFY USED /////////////////////////////////////////////////
 
 import React, { useState, useEffect } from "react";
@@ -162,8 +161,6 @@ function Main() {
     }
   };
 
-  // const pretty = (o) => (o ? JSON.stringify(o, null, 2) : "No result yet!");
-
   return (
     <div className="deepfake-container">
       <nav className="navbar1 flex">
@@ -216,7 +213,6 @@ function Main() {
             {loading ? "Checking..." : "Upload & Check"}
           </button>
         </form>
-        {/* Toast container for displaying notifications */}
         <ToastContainer />
         {preview && mode === "image" && (
           <div className="pre-section" style={{ marginTop: 20 }}>

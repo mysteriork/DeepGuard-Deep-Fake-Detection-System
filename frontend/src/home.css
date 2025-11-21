@@ -70,11 +70,6 @@ a {
   cursor: pointer;
 }
 
-li1:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-}
-
 /* header */
 .navbar1 {
   width: 100vw;
@@ -84,10 +79,16 @@ li1:hover {
   position: fixed;
   justify-content: space-around;
   align-items: center;
-  height: 80px;
+  height: 100px;
   z-index: 9999;
 }
 
+.nav-section {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .btn,
 .btn1 {
   cursor: pointer;
@@ -111,25 +112,25 @@ li1:hover {
 .btn1 {
   width: 200px;
 }
-.nav-section {
-  width: 450px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .imgseclabel {
+  color: white;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
   cursor: pointer;
 }
 
 /* hero */
 
 .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-top: 150px;
   height: 70vh;
   width: 100%;
   gap: 10px;
-  justify-content: space-between;
 }
 .text1 {
   position: relative;
@@ -323,7 +324,7 @@ li1:hover {
   background-color: var(--secondary-text-color);
 }
 .article1 {
-  padding: 10px 30px;
+  padding: 10px;
   flex-basis: 45%;
   flex-direction: column;
 }
@@ -354,142 +355,92 @@ li {
 }
 
 /* --------------- RESPONSIVENESS -------------------------- */
-
-/* For large tablets and smaller desktops (max-width: 1200px) */
-
-@media (max-width: 1200px) {
-  .homeContainer {
-    max-width: 95%;
-  }
-
-  .hero {
-    flex-direction: row;
-    gap: 5px;
-  }
-
-  #textmain2 {
-    width: 100%;
-    font-size: 1.2rem;
-  }
-
-  .heroimg {
-    width: 400px;
-  }
-
-  .heroimg1 {
-    width: 200px;
-  }
-
-  .navbar1 {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 20px;
-  }
-}
-
-/* For tablets (max-width: 900px) */
-
-@media (max-width: 900px) {
+@media (min-width: 700px) and (max-width: 1090px) {
   .hero {
     flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: auto;
-  }
-  .heroimg {
     height: fit-content;
   }
-
-  .text1 {
-    margin-top: 60px;
-  }
-
-  .main {
-    margin-top: 10rem;
-  }
-
-  .div1 {
-    height: fit-content;
-  }
-  .text1 {
-    top: 0;
-    text-align: center;
-  }
-
-  .heroimg {
-    width: inherit;
-    justify-content: center;
-  }
-
-  .heroimg1 {
-    width: 45%;
-    height: auto;
-  }
-
-  #textmain2 {
-    font-size: 1.1rem;
-    width: 90%;
-    line-height: 28px;
-  }
-
   .mainButton {
-    width: 220px;
-    font-size: 1.4rem;
-  }
-
-  .subhead2 {
-    font-size: 2rem;
-  }
-
-  .story1 {
-    font-size: 1.4rem;
-    line-height: 30px;
-    width: fit-content;
-    height: fit-content;
-  }
-
-  .footer2 {
-    flex-direction: column;
-    height: auto;
-    padding: 30px;
-  }
-
-  .article2 ul {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+    margin-inline: auto;
   }
 }
 
-/* For mobile devices (max-width: 600px) */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   html,
   body {
     overflow-x: hidden;
   }
 
+  .imgseclabel {
+    color: white;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+
+  .hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding: 10px;
+  }
+
   .div1 {
-    height: inherit;
+    height: fit-content;
     flex-direction: column;
     margin: 0;
     gap: 40px;
   }
   .subhead2 {
+    text-align: center;
+    font-size: 2rem;
     height: fit-content;
   }
   .main {
-    margin-top: 0;
+    margin-top: 50px;
+    height: 22rem;
   }
   .heroimg {
     height: fit-content;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heroimg1 {
+    width: 170px;
   }
   .shadow {
-    height: 178px;
+    visibility: none;
+  }
+
+  .box1,
+  .box2 {
+    visibility: none;
+    opacity: none;
   }
 
   .text1 {
     margin-top: 40px;
+    width: inherit;
+    height: fit-content;
+    text-align: center;
+    padding: 5px;
+  }
+
+  #textmain {
+    font-size: 1.8rem;
+  }
+
+  #textmain2 {
+    font-size: 1rem;
+    width: inherit;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 28px;
   }
   .navbar1 {
     height: 150px;
@@ -513,21 +464,16 @@ li {
     font-size: 1rem;
   }
 
-  h1 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-
   .subHead {
     font-size: 1rem;
   }
 
-  #textmain2 {
-    font-size: 1rem;
-    width: 90%;
+  .hero1 {
+    width: inherit;
   }
 
   .mainButton {
+    margin-inline: auto;
     width: 200px;
     height: 60px;
     font-size: 1.2rem;
@@ -535,10 +481,11 @@ li {
   }
 
   .hero {
-    margin-top: 12rem;
+    margin-top: 6rem;
   }
 
   .story1 {
+    height: fit-content;
     font-size: 1.1rem;
     line-height: 26px;
   }
@@ -546,6 +493,7 @@ li {
   .footer2 {
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
   }
 
   .article1 h2 {
@@ -556,77 +504,17 @@ li {
     font-size: 0.9rem;
   }
 
-  .article2 ul {
-    flex-wrap: wrap;
-  }
-  .imgsection {
-    margin-top: 20px;
-  }
-}
-
-/* Very small screens (max-width: 400px) */
-
-@media (max-width: 400px) {
-  .div1 {
-    height: inherit;
-    flex-direction: column;
-    margin: 0;
-    gap: 40px;
-  }
-  .subhead2 {
-    height: fit-content;
-  }
-  .main {
-    margin-top: 0;
-  }
-  .heroimg {
-    height: fit-content;
-  }
-  .shadow {
-    height: 178px;
+  .article2 {
     width: inherit;
-  }
-
-  .text1 {
-    margin-top: 40px;
-  }
-  .nav-section {
-    min-height: 50px;
-    width: 100%;
-    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 10px;
   }
 
+  .article2 ul {
+    display: flex;
+  }
   .imgsection {
     margin-top: 20px;
-  }
-  .btn,
-  .btn1 {
-    width: fit-content;
-    height: 40px;
-    font-size: 1rem;
-  }
-
-  .hero {
-    margin-top: 12rem;
-  }
-
-  .mainButton {
-    width: 180px;
-    font-size: 1rem;
-  }
-
-  .heroimg1 {
-    width: 90%;
-    margin: 5px 0;
-  }
-
-  .footer2 {
-    padding: 10px;
-  }
-
-  .footp {
-    font-size: 0.8rem;
   }
 }
