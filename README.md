@@ -12,13 +12,6 @@ It integrates a **Python-based ML engine** with a better improved ensemble core 
 
 <img width="270" height="150" alt="Screenshot 2025-10-05 132956" src="https://github.com/user-attachments/assets/5a2521d9-687b-4695-aa2b-168335a10cb3" />
 
----
-
-## 📂 Project Structure  
-
-<img width="788" height="674" alt="Screenshot 2025-11-08 221557" src="https://github.com/user-attachments/assets/162c5c3b-e602-41df-ab43-39dbd49ee617" />
-
-
 
 ---
 
