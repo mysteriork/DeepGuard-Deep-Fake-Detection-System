@@ -4,13 +4,6 @@
 
 ### 👉  L I V E now :-  https://deep-fake-detection-system.vercel.app/
 ---
-## 📊 Contribution Activity
-
-<div align="center">
-  <div style="display: inline-block; border: 1px solid #30363d; border-radius: 6px; padding: 10px; background: transparent;">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR-GITHUB-USERNAME&theme=github-light&bg_color=00000000&hide_border=true" alt="Transparent Contribution Grid" />
-  </div>
-</div>
 
 
 ### 🎯 Overview  
